@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/game.js"></script>
+<!--Link game.js and player.js-->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+<!--Add database config here below-->
+const firebaseConfig = {
+  apiKey: "AIzaSyCxtQq5pQYTkh3bD3H_w3auxME1Jc1NS24",
+  authDomain: "fruit-basket-ca8c8.firebaseapp.com",
+  databaseURL: "https://fruit-basket-ca8c8-default-rtdb.firebaseio.com",
+  projectId: "fruit-basket-ca8c8",
+  storageBucket: "fruit-basket-ca8c8.appspot.com",
+  messagingSenderId: "692962247870",
+  appId: "1:692962247870:web:85fe7a1708865333840aef"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyCxtQq5pQYTkh3bD3H_w3auxME1Jc1NS24",
+  authDomain: "fruit-basket-ca8c8.firebaseapp.com",
+  databaseURL: "https://fruit-basket-ca8c8-default-rtdb.firebaseio.com",
+  projectId: "fruit-basket-ca8c8",
+  storageBucket: "fruit-basket-ca8c8.appspot.com",
+  messagingSenderId: "692962247870",
+  appId: "1:692962247870:web:a4d8a0050608676f840aef"
+};
+firebase.initializeApp(firebaseConfig);
+  </script>
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
